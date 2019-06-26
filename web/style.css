@@ -1,0 +1,628 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2019, 9:57:27 PM
+    Author     : test
+*/
+
+@CHARSET "ISO-8859-1";
+    body {
+  background-color:rgb(163, 162, 162);
+  background-color: #2E4053;
+  }
+  #LoginForm{
+    text-align: center;
+    margin-top: 60px;
+    font-family:  Arial;
+    background-color: #839192;
+    padding: 20px;
+    width:300px;
+    margin-left:460px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    #LoginPTag{
+    text-align: center;
+    margin-top: 5%;
+    font-family:  Arial;
+    font-size: 25px;  color:snow;
+    }
+    .LoginButton{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background:lightblue;
+    border-color: aqua;
+    }
+    .LoginTextBox{
+      padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .RegisterForm{
+   text-align: center;
+   margin-top: 5%;
+   font-family:  Arial;
+   background-color: #839192;
+   padding: 20px;
+   width:20%;
+   margin-left:40%;
+   margin-right:40%;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   }
+   .RegisterButton{
+    cursor: pointer;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   padding-left: 12px;
+   padding-right: 12px;
+   background:lightblue;
+   border-color: aqua;
+   }
+   .RegisterTextBox{
+     padding: 7px;
+   padding-left: 12px;
+   padding-right: 12px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   }
+.HomePageDiv{
+    margin-left:310px;
+    margin-top: 100px;
+}
+
+.HomePageCheckTrainButton{
+  cursor: pointer;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   padding-left: 12px;
+   padding-right: 12px;
+   background:lightblue;
+   border-color: aliceblue;
+   height:40px;
+   }
+   .HomePageViewBookings{
+   color:aliceblue;
+   cursor: pointer;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   padding-left: 12px;
+   padding-right: 12px;
+   background:none;
+   border-color: white;
+   margin-left:10px;
+   }
+   .HomePageInterchange{
+   color:aliceblue; 
+   border:0;
+    outline :none;
+    border:3px solid aliceblue;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   padding-left: 12px;
+   padding-right: 12px;
+   background:none;
+   border-color:aliceblue;
+   height:40px;
+   }
+  #HomePageLogOutButton{
+    cursor: pointer;
+  	margin-left:1120px;
+  	border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   padding-left: 12px;
+   padding-right: 12px;
+   background:lightblue;
+   border-color: aliceblue;
+   height:40px;
+   }
+   #HomePageEnterPnrTextBox{
+   
+  	margin-top:10px;
+  	margin-left:500px;
+  	border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   background:white;
+   border-color: aliceblue;
+   height:auto;
+   }
+    #HomePageCheckPnrButton{
+      cursor: pointer;
+  	margin-top:10px;
+  	margin-left:10px;
+  	padding-bottom:2px;
+  	border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 7px;
+   background:lightblue;
+   border-color: aliceblue;
+   height:30px;
+   }
+.HomePageSelect { 
+	border:0;
+    outline :none;
+    border:3px solid aliceblue;
+    color:aliceblue;
+    width: 200px; text-align:center; 
+    padding-left:30px;
+    height:40px;
+       background:none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .HomePageDate{
+    	border:0;
+    outline :none;
+    border:3px solid aliceblue;
+    color:aliceblue;
+        height:40px;
+        background:none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .HomePageH2{
+    color:aliceblue !important;
+    font-family:arial;
+    }
+    <!--HOME PAGE OPTION TAG-->
+    option{
+    	color:black;
+    }
+	.HomePageOption { 
+    text-align:center; 
+		padding-right: 20px;
+		color:black;
+ }
+
+ .CheckPNRStatusText{
+ font-family:arial;
+ margin-top:50px;
+ margin-left:400px;
+ color:aliceblue;
+ }
+ 
+ #AvailableTrainBodyId{
+background-color:#2E4053;
+}
+#AvailableTrainHeading{
+color:aliceblue;
+}
+.AvailableTrainTemp{
+	margin-top:20px;
+  }
+.AvailableTrainDiv1:hover{
+  cursor: pointer;
+  background-color:#b3cde0;
+  color:black;
+  transform: scale(1.06);
+}
+.AvailableTrainDiv1{ 
+	text-align:center;
+	margin-left:120px;
+	margin-right:150px;
+ 	font-family:arial;
+  margin-top: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px; background-color: #839192;
+	padding: 3px;
+	padding-left:20px;
+  color:aliceblue;
+  width:1000px;
+	}
+.AvailableTrainDiv2{
+	color:aliceblue; 
+	font-family:arial; 
+	margin-left:480px;
+}
+.AvailableTrainSeatsText{
+	text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px;   
+	border-top-left-radius: 20px;   
+  border-top-right-radius: 20px;    
+}
+.AvailableTrainSeatsTextField{
+  padding: 7px;
+  width:90px;  
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px;   
+	border-top-left-radius: 20px;   
+  border-top-right-radius: 20px;     
+  margin-left:570px;
+}
+.AvailableTrainBookNowButton{
+  cursor: pointer;
+	margin-left:580px;
+	background:none;
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px;   
+	border-top-left-radius: 20px;   
+	border-top-right-radius: 20px;   
+	padding: 7px;   
+	padding-left: 12px;   
+	padding-right: 12px;   
+	background:lightblue;
+	margin-left:585px;
+	}
+.AvailableTrainEnterSeats{
+	margin-left:560px; 
+	padding:7px;   
+	border-bottom-left-radius: 20px;   
+	border-bottom-right-radius: 20px;   
+	border-top-left-radius: 20px;   
+	border-top-right-radius: 20px;
+}
+.bookTicketAndChoosePaymentH2{
+  color:aliceblue;
+  font-family: arial;
+  text-align: center;
+}
+.bookTicketAndChoosePaymentCONTAINER{  
+  margin-bottom: 20px;
+  color:aliceblue; 
+  text-align: center;
+  font-family:  Arial;
+  background-color: #839192;
+  padding: 20px;
+  width:600px;
+  margin-left:300px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius:20px;
+  border-top-right-radius: 20px;
+  }
+
+  .BookedPageDiv1{ 
+    margin-top:100px;
+    background-color:#839192; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height:200px;width:300px;
+    margin-left:400px;
+    padding:20px; 
+    width:400px;
+}
+.BookedPageH3{
+    color:aliceblue;
+    margin-bottom:90px;
+    font-family:Arial;
+}
+#CancelButton{
+  cursor: pointer;
+margin-top:30px;
+margin-left:30px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+padding: 7px;
+padding-left: 12px;
+padding-right: 12px;
+background:lightblue;
+border-color: aliceblue;
+height:40px;
+}
+#PrintTicket{
+margin-top:80px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+padding: 7px;
+padding-left: 12px;
+padding-right: 12px;
+background:lightblue;
+border-color: aliceblue;
+height:40px;
+}
+.BookedPageA{
+    color:aliceblue;
+    margin-left:20px;
+    margin-top:30px;
+}
+.checkPNRdiv{ 
+  margin-top:20px;
+  background-color:#839192; 
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:250px;
+  width:300px;
+  margin-left:400px;
+  padding:20px; 
+  width:400px;
+}
+.checkPNRh3{
+  text-align: center;
+  color:aliceblue;
+  margin-bottom:90px;
+  font-family:Arial;
+}
+#checkPNRCancelButton{
+  cursor: pointer;
+  margin-top:10px;
+  margin-left:40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background:lightblue;
+  border-color: aliceblue;
+  height:40px;
+}
+.checkPNRGoToHomePage{
+  font-family:Arail;
+  color:aliceblue;
+  margin-left:530px
+}
+#checkPNRPassengerInfo{ 
+  text-align:center;
+  font-family:arial;
+  color:aliceblue;
+  margin-top:20px;
+  background-color:#839192; 
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:85px;
+  width:300px;
+  margin-left:450px;
+  padding:20px;
+}
+#UserAndSeatsForm{
+    text-align: center;
+    margin-top: 60px;
+    font-family:  Arial;
+    background-color: #839192;
+    padding: 20px;
+    width:200px;
+    margin-left:505px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.UserAndSeatsTextBox{
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.BooKTicketButton{
+  cursor: pointer;
+  margin-top:10px;
+  margin-left:580px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background:lightblue;
+  border-color: aliceblue;
+  height:40px;
+}
+.ChooseMethodOfPayment{
+  color:aliceblue;
+  text-align: center;
+  font-family: arial;
+}
+.ChooseMethodOfPaymentH2{
+  font-family: arial;
+  margin-top: 10px;
+  color:aliceblue;
+  text-align: center;
+}
+.PayButton{
+  cursor: pointer;
+  margin-top:10px;
+  margin-left:5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background:lightblue;
+  border-color: aliceblue;
+  height:40px;
+}
+#incorrectInput{
+  margin-left:200px;
+  font-family: arial;
+  color:orangered;
+  font-size: large;
+}
+#PassenerDetailsHeading{
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+.viewBookingsDiv{ 
+  margin-top:15px;
+  background-color:#839192; 
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:160px;
+  width:300px;
+  margin-left:400px;
+  padding:20px; 
+  width:400px;
+}
+.viewBookingsH3{
+  color:aliceblue;
+  font-family:Arial;
+}
+.stationTrack{
+  text-align: center;
+  font-family: arial;
+  color:aliceblue;
+}
+.alreadyRegistered{
+  text-align:center;
+  font-family:Arial;
+  position:relative;
+  color:aliceblue;
+  }
+.registrationSucess
+{
+    text-align:center;
+    font-family:Arial;
+    position:relative;
+    color:aliceblue;
+}
+.cardDetailsClass{
+  background-color: #839192;
+  border-radius:20px;
+  margin:0px auto 0px auto;
+  width:320px;
+}
+.cardDetailsClass[type=number]::-webkit-inner-spin-button, 
+  .cardDetailsClass[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  }
+  .tab {
+    margin:0px auto;
+    width:400px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .tab button {
+    cursor: pointer;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  .tab button.active {
+    background-color: #ccc;
+  }
+  .tabcontent {
+    width:379px;
+    text-align: center;
+    margin:0px auto;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #839192;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #chooseTrainAlertBody{
+    text-align:center;
+    font-family: arial;
+    color:orangered;
+    font-size: x-large;
+    margin-left:451px;
+  }
+  .tierRadio{
+    background:lightslategray;
+    border-radius: 20px;
+    padding:9px;
+    transform: scale(1.12);
+  }

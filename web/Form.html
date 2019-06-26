@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta charset="ISO-8859-1">
+<head>
+<title>Register</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+<body>
+<form method="post"  align="center" top=30% class="RegisterForm" action="RegisterForm"> 
+  Registration</br></br>
+  First name:<br>
+  <input type="text" name="firstname" required class="RegisterTextBox" placeholder="Enter firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" required class="RegisterTextBox" placeholder="Enter lastname">
+  <br>
+  E-mail:<br>
+  <input type="email" name="email" required class="RegisterTextBox" placeholder="Enter email">
+  <br>
+  Password:<br>
+  <input type="password" name="password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required class="RegisterTextBox" placeholder="Enter password">
+  <br>
+  <div id="message" style="display: none">Weak Password</div>
+  Age:<br>
+  <input type="number" name="age" min="18" max="110" required class="RegisterTextBox" placeholder="Enter age">
+  <br>
+  Gender:<br>
+  <input type="radio" name="Gender" value="M" required class="RegisterTextBox">Male
+  <input type="radio" name ="Gender" value="F">Female
+  <input type="radio" name="Gender" value="O">Other<br>
+  <br>
+  Mobile Number:<br>
+  <input type="text" name="MobileNumber" pattern="[7-9]{1}[0-9]{9}" required class="RegisterTextBox" placeholder="Enter Mobile Number">
+  <br>
+  City: <br> 
+  <input type="text" name="City" required class="RegisterTextBox" placeholder="Enter city">
+  <br><br>
+  <input type="submit" value="Create Account" class="RegisterButton">
+</form> 
+<script>
+  var myInput = document.getElementById("psw");
+  myInput.onfocus = function() {
+  document.getElementById("message").style.display = "block";
+}
+myInput.onblur = function() {
+  document.getElementById("message").style.display = "none";
+}
+document.getElementById("psw").onkeyup = function () { 
+  var pass=document.getElementById("psw"); 
+  var lowerCaseLetters = /[a-z]/g; 
+  var upperCaseLetters = /[A-Z]/g; 
+  var numbers = /[0-9]/g; if((pass.value.match(lowerCaseLetters))&&(pass.value.match(upperCaseLetters))&&(pass.value.match(numbers))&&(pass.value.length >= 8)) { 
+    var str = "Strong password";
+    var result = str.fontcolor("#39ff14");
+     document.getElementById("message").innerHTML =result; 
+     } 
+     else { 
+        document.getElementById("message").innerHTML ="Weak Password"; } 
+        document.getElementById("message").style.color="red"; 
+        }
+
+  </script>
+</body>
+</html>
